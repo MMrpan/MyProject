@@ -1,27 +1,23 @@
-*{padding: 0;margin: 0 auto;list-style: none}
+*{padding: 0;margin: 0;list-style: none}
 .fl{float: left}
 .cl{clear: both}
-.fl .navbar{
-    margin:0 auto;
-}
-body{
-    width: 2000px;
-    height: auto;
-    padding: 0 auto;
-}
+
 a{
     text-decoration: none;
 }
 /*header样式*/
 #header{
-    width: 1200px;
+    width: 1483px;
     height: 84px;
     margin: 0px auto;
-    /* box-shadow:0px 4px 0  #ccc; */
+    box-shadow:0px 4px 0  #ccc;
 }
 
 #header .logo{
-    margin-left: 0px;
+    background: url("../images/common/header_logo.jpg") no-repeat;
+    width: 153px;
+    height: 37px;
+    margin-left: 180px;
     margin-top: 24px;
 }
 
@@ -88,33 +84,30 @@ a{
     margin-top: 35px;
 }
 #header .icon .icon6:hover{background: url("../images/common/c_icon6_1.jpg")}
+#header .icon .icon1{
+    background: url("../images/common/c_icon1.jpg");
+    width: 23px;
+    height: 22px;
+    margin-left: 120px;
+    margin-top: 35px;
+}
+#header .icon .icon1:hover{background: url("../images/common/c_icon1_1.jpg")}
 
 
 #footer{
-    height: 253px;
-    width: 1200px;
-    background:#ffffff
+    height: 273px;
+    /*width: 1483px;*/
+    background:#373737
 }
 
 #footer .foot_content{
     width:1350px;
-    height: 331px;
+    height: 273px;
     margin: 0 auto;
 }
-.video1{
-    float: left;
-
-}
-.video2{
-    float: right;
-}
-#footer .foot_content div{
-    width: 600px;
-    height: 270px;
-}
-/* #footer .foot_content .foot_about{
+#footer .foot_content .foot_about{
     width: 280px;
-    height: 293px;
+    height: 273px;
 }
 #footer .foot_content .foot_about h3{
     line-height: 53px;
@@ -169,16 +162,16 @@ color: #a3a4a6;
     display: inline-block;
     width: 71px;
     height: 61px;
-    background: url("../images/common/footer_img.jpg"); */
-/* } */
+    background: url("../images/common/footer_img.jpg");
+}
 #footer .foot_end{
     height: 52px;
-    background-color: #e4e4e4;
+    background-color: #232323;
     position: relative;
 }
 
 #footer .foot_end div{
-    background: url("../gugong/tuzi.png") no-repeat;
+    background: url("../images/common/footer_describeImg.jpg") no-repeat;
     width: 102px;
     height: 52px;
     position: absolute;
