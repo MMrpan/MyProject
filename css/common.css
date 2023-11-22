@@ -1,21 +1,23 @@
-*{padding: 0;margin: 0;list-style: none}
+*{padding: 0;margin: 0 auto;list-style: none}
 .fl{float: left}
 .cl{clear: both}
+body{
+    width: 1300px;
+}
 
 a{
     text-decoration: none;
 }
 /*header样式*/
 #header{
-    width: 1483px;
+    width: 1350px;
     height: 84px;
     margin: 0px auto;
     box-shadow:0px 4px 0  #ccc;
 }
 
 #header .logo{
-    background: url("../images/common/header_logo.jpg") no-repeat;
-    width: 153px;
+    width: 215px;
     height: 37px;
     margin-left: 180px;
     margin-top: 24px;
@@ -95,9 +97,9 @@ a{
 
 
 #footer{
-    height: 273px;
-    /*width: 1483px;*/
-    background:#373737
+    height: auto;
+    width: 1200px;
+    background:#d6d4d4;
 }
 
 #footer .foot_content{
@@ -119,8 +121,8 @@ a{
 #footer .foot_content .foot_about p{
     margin-top: 18px;
     line-height: 23px;
-    font-size: 12px;
-    color: #7b7b7d;
+    font-size: 15px;
+    color: #000000;
     margin-bottom: 5px;
 }
 #footer .foot_content .foot_about .info{
@@ -143,7 +145,7 @@ color: #a3a4a6;
     margin-top: 15px;
     padding-top: 0;
     line-height: 21px;
-    color: #c8c8c8;
+    color: #000000;
     font-size: 12px;
     padding-left: 32px;
     background: url("../images/common/footer_bird.jpg") no-repeat;
@@ -159,19 +161,19 @@ color: #a3a4a6;
     margin-top: 18px;
 }
 #footer .foot_content .foot_about .stu_img a{
-    display: inline-block;
-    width: 71px;
-    height: 61px;
-    background: url("../images/common/footer_img.jpg");
+    /* display: inline-block; */
+    /* width: 71px;
+    height: 61px; */
+    /* background: url("./gugong/2.2.jpg") no-repeat; */
 }
 #footer .foot_end{
     height: 52px;
-    background-color: #232323;
+    background-color: #e4e4e4;
     position: relative;
 }
 
 #footer .foot_end div{
-    background: url("../images/common/footer_describeImg.jpg") no-repeat;
+    background: url("../gugong/tuzi.png") no-repeat;
     width: 102px;
     height: 52px;
     position: absolute;
@@ -184,7 +186,7 @@ color: #a3a4a6;
     color: #e4e4e4;
     font-size: 14px;
     position: absolute;
-    right: 170px;
+    left: 318px;
     top: 0;
 }
 #footer .foot_end a{

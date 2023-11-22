@@ -12,6 +12,7 @@
 .mainContent{
     width: 1050px;
     margin: 0 auto;
+    padding: 2px;
 }
 .mainContent div{
     width: 350px;
